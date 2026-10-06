@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security or privacy problem
+    url: https://github.com/Heather-Herbert/transition-toolkit/security/advisories/new
+    about: Report it privately. Do not open a public issue.

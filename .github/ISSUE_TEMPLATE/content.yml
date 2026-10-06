@@ -1,0 +1,26 @@
+name: Content correction
+description: A wrong fact, broken link or out-of-date guidance.
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Do not post medication, doses, blood results or anything that identifies you.
+  - type: input
+    id: where
+    attributes:
+      label: Where in the app?
+      placeholder: e.g. Name-change checklist > DVLA
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source for the correct information
+      description: A link to an official or published source, if you have one.

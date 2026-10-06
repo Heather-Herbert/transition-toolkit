@@ -1,0 +1,19 @@
+name: Accessibility
+description: Hard to use with a screen reader, large text, or when tired or unwell.
+labels: [accessibility]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This issue is public.** Do not post medication, doses, blood results or anything that identifies you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What was hard to use?
+    validations:
+      required: true
+  - type: input
+    id: tech
+    attributes:
+      label: Assistive technology or settings you use (optional)
+      placeholder: e.g. TalkBack, 200% font size, dark mode
